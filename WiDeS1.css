@@ -1,0 +1,129 @@
+html, body {
+    width: 100%;
+    /*min-width: 1000px;
+    min-height: 100px;*/
+    margin: 0;
+    font-size: 16px;
+    font-family: "Calibri Light", "Calibri", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    line-height: 1.8em;
+    }
+
+.menu.outside {
+    padding-top: 10px;
+}
+
+ul.menu.inside {
+    display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+}
+
+a.list {
+    color: white;
+    text-decoration: none;
+}
+
+a.list:hover {
+    color: #A31934;
+    text-decoration: none;
+}
+
+.grid{
+    color: black;
+    font-weight: bold;
+}
+
+.grid.element {
+    background-color: transparent;
+    text-align: center;
+}
+
+.img1 {
+    background-image: url(Images/IMG1.jpeg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(Images/IMG2.jpeg);
+    min-height: 50%;
+}
+
+.img3 {
+    background-image: url(Images/IMG3.jpeg);
+    min-height: 50%;
+}
+
+.img4 {
+    background-image: url(Images/IMG4.jpeg);
+    min-height: 50%;
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+   
+.section {
+    text-align: center;
+    justify-content: centre;
+    background-size: cover;
+    padding: 80px 50px;
+}
+
+.section.red {
+    background-color: #A31934;
+    color: #E8E8E8;
+}
+
+.section.grey {
+    background-color: #E8E8E8;
+    color: #A31934;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+    
+.TopFooter {
+    text-align: center;
+    width: 82%;
+    margin: auto;
+    color: #A31934;
+    padding-top: 10px;
+    border-bottom: 2px solid #A31934;
+    }
+
+.BottomFooter {
+    text-align: center;
+    width: 82%;
+    font-size: 16px;
+    color: #A31934;
+    margin: auto;
+    }
+
+a.Hyperlinks {
+    color: #A31934;
+    text-decoration: none;
+    }
+
+a.Hyperlinks:hover {
+    color: #CFB53B;
+    text-decoration: none;
+    }
